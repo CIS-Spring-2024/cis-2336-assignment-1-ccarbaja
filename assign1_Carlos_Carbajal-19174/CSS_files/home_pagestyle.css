@@ -53,15 +53,57 @@ header {
         display:block;
 }
 
-/* Page Specific Style*/
+/* START OF Page Specific Style*/
 
+.todaymenu {
+    width:50%;
+    float:left;
+    padding: 20px 20px;
+    font-size:25px;
+}
+table {
+        border-collapse: collapse;
+        width:100%;
+}
 
+#dailymenuheader {
+    text-align: center;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:#D03731;
+}
 
+tr {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+table, tr, th, td {
+        border: 1px solid black;
+}
+
+.menupics {
+    width:220px;
+    height:180px;
+}
+
+.menupics img {
+    width: 100%;
+    height: auto;
+}
+/* END OF Page Specific Style*/
 
 footer {
         background-color: #D03731;
         padding:20px;
         text-align:center;
+        bottom:0;
+        width:100%;
+        height:2.5rem;
+        position: absolute;
 
         #homelink{
             color:white;
