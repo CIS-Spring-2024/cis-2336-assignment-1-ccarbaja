@@ -76,13 +76,17 @@ header {
 
 
 footer {
-        background-color: #D03731;
-        padding:20px;
-        text-align:center;
+    background-color: #D03731;
+    padding:20px;
+    text-align:center;
+    bottom:0;
+    width:100%;
+    height:2.5rem;
+    position: absolute;
 
-        #homelink{
-            color:white;
-        }
+    #homelink{
+        color:white;
+    }
 }
 
 @media screen and (max-width:600px){
