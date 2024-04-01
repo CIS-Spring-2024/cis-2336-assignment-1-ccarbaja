@@ -76,3 +76,13 @@ footer {
     font-size:25px;
     ul { list-style: none; }
 }
+
+.locationpics {
+    width:420px;
+    height:350px;
+}
+
+.locationpics img {
+    width: 100%;
+    height: auto;
+}

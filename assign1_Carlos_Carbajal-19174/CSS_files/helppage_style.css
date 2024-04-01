@@ -52,3 +52,33 @@ header {
 .navbar ul li:hover ul.dropdown {
         display:block;
 }
+
+footer {
+    background-color: #D03731;
+    padding:20px;
+    text-align:center;
+    bottom:0;
+    width:100%;
+    height:2.5rem;
+    position: absolute;
+
+    #homelink{
+        color:white;
+    }
+}
+
+/* START OF Page Specific Style*/
+
+.pagelinks {
+    text-align:center;
+    float:left;
+    width:50%;
+}
+
+#questionguy {
+        width:420px;
+        height:350px;
+        width: 100%;
+        height: auto;
+        float:left;
+    }
