@@ -69,16 +69,38 @@ footer {
 
 /* START OF Page Specific Style*/
 
-.pagelinks {
-    text-align:center;
-    float:left;
-    width:50%;
+#needhelp {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: 1px solid black;
 }
 
-#questionguy {
-        width:420px;
-        height:350px;
-        width: 100%;
-        height: auto;
-        float:left;
-    }
+.pagelinks{
+    float:left;
+    width:50%;
+    padding:15px 20px;
+}
+.pagelinks a{
+    font-size: 30px;
+    text-decoration:none;
+    color:#D03731;
+}
+
+.pagelinks ul {
+    list-style: none;
+}
+
+.questionguy {
+    width:50%;
+    float:left;
+    display:block;
+    width:420px;
+    height:350px;
+    padding:0px 10px;
+}
+
+.questionguy img {
+    width: 100%;
+    height: auto;
+}
